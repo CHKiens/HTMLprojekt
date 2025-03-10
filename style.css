@@ -1,7 +1,8 @@
 body, h1, h2, h3, h4, h5, h6, p, ul, ol, table, tr, td, span, div { 
-    font-family: Arial, Helvetica, Sans-Serif; 
+    font-family: Calibri, sans-serif; 
     /* AB 24.01.2002 Netscape 4.7 retter sig ikke efter overordnet angivelse f.eks. paa body,
     derfor de mange tag-navne. */ 
+    font-size: 110%;
  }
   
  table.toptekst { 
@@ -16,8 +17,20 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, table, tr, td, span, div {
 }
  tr {
 	vertical-align : top;
+
+}
+
+.col-md-4{
+   margin-bottom: 20px;
 }
    
+.row {
+   background-color: rgb(216, 241, 243);
+   padding: 15px;
+   border-radius: 10px;
+   color: rgb(50, 76, 88);
+}
+
  pre, code { font-family: monospace; }
  div.center { text-align: center; }
  div.right { text-align: right; }
